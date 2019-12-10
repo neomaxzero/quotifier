@@ -14,6 +14,6 @@ app.get("/", function(req, res) {
   res.json(quotes.list[Math.round(currentQuote)].content);
 });
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`));
+app.listen(port, () => console.log(`App listening on port ${port}!`));
 
 
