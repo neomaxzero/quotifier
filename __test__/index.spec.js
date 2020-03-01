@@ -20,4 +20,7 @@ describe('test', () => {
   test('should fail the action 7', () => {
     expect(true).toBe(false);
   });
+  test('should fail the action 7', () => {
+    expect(true).toBe(false);
+  });
 });
